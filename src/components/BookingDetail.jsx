@@ -7,7 +7,7 @@ function BookingDetail() {
   const iconArrow_1 = <svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -5 24 24" width="28" fill="currentColor"><path d="M5.314 7.071l-4.95-4.95A1 1 0 0 1 1.778.707l5.657 5.657a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 0 1-1.414-1.414l4.95-4.95z"></path></svg>;
   return (
       <div className="relative bg-[#c71c30] rounded-xl w-full h-screen p-4">
-        <div className='bg-[#560a0a] w-12 h-12 absolute translate-x-[-50% -50%] right-0 top-0 rounded-tr-2xl rounded-bl-[45px]'>
+        <div className='bg-[#560a0a] w-12 h-12 absolute translate-x-[-50% -50%] right-0 top-0 rounded-tr-xl rounded-bl-[45px]'>
           <span className='text-white text-[23px] ps-5'>1</span>
         </div>  
         <div className="my-5">
