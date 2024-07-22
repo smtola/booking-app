@@ -8,7 +8,7 @@ function Button({type, title, disable, onClick,icon,logo}) {
       pe-[1vh] py-3
       rounded-xl 
       font-medium
-      text-[17px]
+      text-[14px]
       outline-none
       w-[30vh]
       `}

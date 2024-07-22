@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='max-w-screen-sm bg-[#f797a3ca] min-h-[130vh] p-3 shadow-2xl'>
+      <div className='max-w-screen-sm bg-[#f797a3ca] min-h-screen p-3 shadow-2xl'>
         <BookingDetail />
       </div>
       <BookingMenu />
