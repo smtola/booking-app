@@ -4,11 +4,11 @@ function Button({type, title, disable, onClick,icon,logo}) {
       flex
       justify-center
       gap-2
-      ${(type === 'booking' ? 'border-2 border-[#ffbf00] text-white':'bg-[#ff8800] text-white')}
-      pe-[1vh] py-3
+      ${(type === 'booking' ? 'border-2 border-[#ffbf00] py-3 text-white':'bg-[#ff8800] text-white pt-4 pb-3')}
+      pe-[1vh]
       rounded-xl 
       font-medium
-      text-[14px]
+      text-[15px]
       outline-none
       w-[30vh]
       `}

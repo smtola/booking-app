@@ -16,3 +16,28 @@
         /* Firefox */
     }
 }
+
+@media screen and (max-width:420px) {
+    .modal-1 {
+        min-width: 45vh;
+    }
+    .modal-2 {
+        min-width: 45vh;
+    }
+}
+@media screen and (max-width:395px) {
+    .modal-1 {
+        min-width:46vh;
+    }
+    .modal-2 {
+        min-width: 46vh;
+    }
+}
+@media screen and (max-width:360px) {
+    .modal-1 {
+        min-width: 49vh;
+    }
+    .modal-2 {
+        min-width: 49vh;
+    }
+}
