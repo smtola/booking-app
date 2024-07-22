@@ -41,21 +41,21 @@ function BookingDetail() {
           <form>
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 rounded-none w-full text-sm text-gray-100 bg-transparent  border-b border-gray-100 appearance-none 00 blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 rounded-none w-full text-sm text-gray-100 bg-transparent  border-b blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                     <label className="peer-focus:font-medium absolute text-sm text-gray-100  duration-300 transform rounded-none -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus: peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Recipient Name</label>
                 </div>
                 <div className="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 rounded-none w-full text-sm text-gray-100 bg-transparent  border-b border-gray-100 appearance-none 00 blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 rounded-none w-full text-sm text-gray-100 bg-transparent  border-b blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                     <label className="peer-focus:font-medium absolute text-sm text-gray-100  duration-300 transform rounded-none -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus: peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone Number</label>
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative z-0 w-full mb-5 group">
-                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" className="block py-2.5 px-0 w-full rounded-none text-sm text-gray-100 bg-transparent  border-b border-gray-100 appearance-none 00 blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" className="block py-2.5 px-0 w-full rounded-none text-sm text-gray-100 bg-transparent  border-b blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                     <label className="peer-focus:font-medium absolute text-sm text-gray-100  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 rounded-none origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus: peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Location</label>
                 </div>
                 <div className="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_company" id="floating_company" className="block py-2.5 px-0 w-full text-sm text-gray-100 bg-transparent rounded-none  border-b border-gray-100 appearance-none 00 blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <input type="text" name="floating_company" id="floating_company" className="block py-2.5 px-0 w-full text-sm text-gray-100 bg-transparent rounded-none  border-b blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                     <label className="peer-focus:font-medium absolute text-sm text-gray-100  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] rounded-none peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus: peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Address</label>
                 </div>
               </div>
@@ -65,15 +65,15 @@ function BookingDetail() {
         <div className="my-5">
           <h1 className="text-white font-medium text-[16pt]">Item Description</h1>
           <form>
-              <div className="relative z-0 w-full mb-3 group">
-                  <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 rounded-none px-0 w-full text-sm text-gray-100 bg-transparent  border-b border-gray-100 appearance-none 00 blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+              <div className="relative z-0 w-full mb-3 ">
+                  <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 rounded-none px-0 w-full text-sm text-gray-100 bg-transparent  border-b blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                   <label className="peer-focus:font-medium absolute text-sm text-gray-100  duration-300 transform rounded-none -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus: peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Cash to Collect</label>
               </div>
-              <div className="relative z-0 w-full mb-3 group">
-                  <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 rounded-none w-full text-sm text-gray-100 bg-transparent  border-b border-gray-100 appearance-none 00 blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+              <div className="relative z-0 w-full mb-3 ">
+                  <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 rounded-none w-full text-sm text-gray-100 bg-transparent  border-b blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
                   <label className="peer-focus:font-medium absolute text-sm text-gray-100  duration-300 transform rounded-none -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus: peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Add a note to driver</label>
               </div>
-              <div className="relative z-0 w-full  group">
+              <div className="relative z-0 w-full  ">
                   <div className="text-white border-b flex justify-between">
                     <button className="mb-3">{ "<" } 5kg</button>
                     <button className="mb-3">Document</button>
